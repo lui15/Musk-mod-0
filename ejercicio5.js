@@ -26,6 +26,8 @@ function invertirPalabraConPila(palabra) {
 // Leer una palabra del usuario
 rl.question("Introduce una palabra: ", (input) => {
   const palabraInvertida = invertirPalabraConPila(input);
-  console.log(`La palabra invertida es "${palabraInvertida}".`);
+
+  // Mostrar de diferente forma el resultado
+  console.log(`La respuesta invertida es: "${palabraInvertida}".`);
   rl.close();
 });
